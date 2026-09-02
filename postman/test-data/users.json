@@ -1,0 +1,23 @@
+[
+  {
+    "scenario": "Valid Developer User",
+    "name": "Sarah Connor",
+    "email": "sarah.connor@example.com",
+    "role": "developer",
+    "status": "active"
+  },
+  {
+    "scenario": "Valid QA User",
+    "name": "Alex Murphy",
+    "email": "alex.murphy@example.com",
+    "role": "qa_engineer",
+    "status": "active"
+  },
+  {
+    "scenario": "Valid Manager User",
+    "name": "Ellen Ripley",
+    "email": "ellen.ripley@example.com",
+    "role": "manager",
+    "status": "inactive"
+  }
+]

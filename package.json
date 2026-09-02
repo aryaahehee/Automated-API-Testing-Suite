@@ -1,0 +1,31 @@
+{
+  "name": "automated-api-testing-suite",
+  "version": "1.0.0",
+  "description": "Professional API Automation Testing Suite with Postman and Newman",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node scripts/run-tests.js",
+    "test:api": "node scripts/run-tests.js",
+    "test:newman": "newman run postman/collections/Automated_API_Testing_Suite.postman_collection.json -e postman/environments/Local.postman_environment.json --reporters cli,json --reporter-json-export reports/newman-run-summary.json"
+  },
+  "keywords": [
+    "api-testing",
+    "automation",
+    "postman",
+    "newman",
+    "qa",
+    "express"
+  ],
+  "author": "Arya Patil",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
