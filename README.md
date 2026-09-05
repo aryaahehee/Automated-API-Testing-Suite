@@ -1,6 +1,6 @@
 # Automated API Testing Suite
 
-> **A professional, presentation-ready API automation testing suite built with Node.js, Express, Postman, and Newman.**
+> **A professional, API automation testing suite built with Node.js, Express, Postman, and Newman.**
 
 [![Newman Test Run](https://img.shields.io/badge/Newman-Passing%20(36%2F36)-success?style=flat-square&logo=postman)](docs/test-results.md)
 [![API Status](https://img.shields.io/badge/API-v1.0.0-blue?style=flat-square)](docs/api-endpoints.md)
@@ -11,8 +11,6 @@
 ## 📌 Project Overview
 
 **Automated API Testing Suite** is an industry-standard QA automation engineering project designed to demonstrate automated API discovery, authentication handling, CRUD lifecycle validation, negative error testing, SLA response-time assertions, and headless CLI test execution.
-
-This project represents **Section 1 (API Testing Foundation)** of the multi-phase internship roadmap.
 
 ---
 
@@ -28,7 +26,6 @@ This project represents **Section 1 (API Testing Foundation)** of the multi-phas
   * Business logic and data consistency checks
 * **Dynamic Variable Chaining**: Automatically extracts JWT tokens and generated resource IDs (`userId`, `createdEmail`) across requests.
 * **One-Command Headless Execution**: Newman-powered test runner that boots the server, runs tests, and exports structured reports.
-* **Presentation & Documentation Suite**: Complete test plan, test cases matrix, actual test execution metrics, and presentation demo flow.
 
 ---
 
